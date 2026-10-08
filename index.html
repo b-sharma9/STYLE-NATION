@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="STYLE NATION — Unisex Salon in Indore. Hair, beauty, bridal, makeup, nails, skin and spa services.">
+<title>STYLE NATION | Unisex Salon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#171512;--cream:#f7f1e8;--paper:#fffaf3;--gold:#b88a44;--gold2:#e0bd78;--muted:#6d665d;--line:#e7ddcf;--dark:#201c18}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(247,241,232,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(184,138,68,.18)}
+.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:12px;align-items:center}.mark{width:43px;height:43px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-family:"Cormorant Garamond";font-size:28px;color:var(--gold);font-weight:700}.brand strong{font-family:"Cormorant Garamond";font-size:27px;letter-spacing:.08em}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:.23em;margin-top:-7px}
+.navlinks{display:flex;gap:27px;font-size:13px;font-weight:600}.navlinks a:hover{color:var(--gold)}.navcta{background:var(--dark);color:white;padding:12px 18px;border-radius:999px;font-size:12px;font-weight:700}
+.hero{min-height:92vh;padding-top:76px;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(22,18,14,.86) 0%,rgba(22,18,14,.54) 44%,rgba(22,18,14,.25) 100%),url("https://img.magicpin.com/9110980_store_images_0.webp") center/cover}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 25%,rgba(224,189,120,.28),transparent 35%);pointer-events:none}
+.hero .container{position:relative;z-index:1;color:white}.eyebrow{letter-spacing:.28em;text-transform:uppercase;color:var(--gold2);font-size:11px;font-weight:700}.hero h1{font-family:"Cormorant Garamond";font-size:clamp(58px,9vw,108px);line-height:.82;margin:22px 0 22px;max-width:760px;font-weight:600}.hero p{max-width:600px;font-size:17px;color:#f5eee3}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:14px 22px;border-radius:999px;font-weight:700;font-size:13px}.btn.gold{background:var(--gold);color:white}.btn.ghost{border:1px solid rgba(255,255,255,.55);color:white}
+.strip{background:var(--dark);color:white}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#3a332b}.stat{background:var(--dark);padding:25px;text-align:center}.stat b{display:block;font-family:"Cormorant Garamond";font-size:34px;color:var(--gold2)}.stat span{font-size:11px;color:#c8beb2;text-transform:uppercase;letter-spacing:.13em}
+section{padding:100px 0}.sectionhead{max-width:680px;margin-bottom:44px}.sectionhead .eyebrow{color:var(--gold)}h2{font-family:"Cormorant Garamond";font-size:56px;line-height:1;margin:10px 0 16px}p.lead{color:var(--muted);font-size:16px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--paper);border:1px solid var(--line);padding:28px;border-radius:22px;transition:.3s}.card:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(48,35,20,.09)}.icon{font-size:26px}.card h3{font-family:"Cormorant Garamond";font-size:29px;margin:12px 0 5px}.card p{color:var(--muted);font-size:13px;margin:0}
+.about{background:var(--paper)}.aboutgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}.aboutimg{height:620px;border-radius:28px;background:url("https://img.magicpin.com/9110980_store_images_1.webp") center/cover;box-shadow:24px 24px 0 var(--gold2)}.quote{font-family:"Cormorant Garamond";font-size:31px;line-height:1.18;margin:30px 0}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:25px}.ticks div{font-size:13px}.ticks span{color:var(--gold);font-weight:800;margin-right:7px}
+.gallery{display:grid;grid-template-columns:1.3fr .7fr;gap:16px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:20px;display:block}.gmain{height:560px}.gside{display:grid;grid-template-rows:1fr 1fr;gap:16px}.gside img{min-height:0}
+.locations{background:var(--dark);color:white}.locationgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.loc{border:1px solid #4b4238;border-radius:22px;padding:27px;background:#26211c}.loc h3{font-family:"Cormorant Garamond";font-size:31px;margin:0 0 7px}.loc p{color:#cfc5b8;font-size:13px}.loc .hours{display:inline-block;color:var(--gold2);font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+.reviews{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}.review{background:var(--paper);padding:26px;border:1px solid var(--line);border-radius:20px}.stars{color:var(--gold);letter-spacing:3px}.review p{font-family:"Cormorant Garamond";font-size:23px;line-height:1.2}.review small{color:var(--muted)}
+.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contactbox{background:var(--dark);color:white;border-radius:26px;padding:35px}.contactbox h3{font-family:"Cormorant Garamond";font-size:36px;margin-top:0}.contactline{padding:13px 0;border-bottom:1px solid #443b32;font-size:14px}.contactline b{display:block;color:var(--gold2);font-size:10px;text-transform:uppercase;letter-spacing:.14em}.hoursgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px 22px}.hoursgrid div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:9px 0;font-size:12px}
+.menu{background:#efe5d6}.menubox{background:var(--paper);border:1px solid var(--line);border-radius:25px;padding:35px}.menurow{display:flex;justify-content:space-between;gap:20px;border-bottom:1px dashed #d7c8b6;padding:14px 0}.menurow b{font-family:"Cormorant Garamond";font-size:22px}.menurow span{color:var(--muted);font-size:12px;text-align:right}
+footer{background:#11100e;color:#a9a197;padding:35px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.gold{color:var(--gold2)}
+@media(max-width:800px){.navlinks{display:none}.hero h1{font-size:66px}.stats{grid-template-columns:1fr 1fr}.services,.locationgrid,.reviews,.contactgrid,.aboutgrid{grid-template-columns:1fr}.aboutimg{height:430px}.gallery{grid-template-columns:1fr}.gmain{height:420px}.gside{height:520px}.ticks{grid-template-columns:1fr}section{padding:75px 0}}
+</style>
+</head>
+<body>
+<nav><div class="container navin">
+<a class="brand" href="#top"><div class="mark">S</div><div><strong>STYLE NATION</strong><small>UNISEX SALON · INDORE</small></div></a>
+<div class="navlinks"><a href="#services">Services</a><a href="#story">About</a><a href="#locations">Outlets</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+<a class="navcta" href="tel:+919111477778">BOOK APPOINTMENT</a>
+</div></nav>
+
+<header id="top" class="hero"><div class="container">
+<div class="eyebrow">Hair · Beauty · Bridal · Wellness</div>
+<h1>Beauty, styled with intention.</h1>
+<p>A premium unisex salon experience in Indore for hair transformations, beauty rituals, bridal looks and everyday grooming.</p>
+<div class="buttons"><a class="btn gold" href="#contact">Book Your Visit</a><a class="btn ghost" href="#services">Explore Services</a></div>
+</div></header>
+
+<div class="strip"><div class="container stats">
+<div class="stat"><b>4.2★</b><span>Khatiwala Tank listing</span></div>
+<div class="stat"><b>25+</b><span>Years in business*</span></div>
+<div class="stat"><b>10–9:30</b><span>Open daily*</span></div>
+<div class="stat"><b>Unisex</b><span>Hair & beauty</span></div>
+</div></div>
+
+<section id="services"><div class="container">
+<div class="sectionhead"><div class="eyebrow">Signature services</div><h2>Everything for your next look.</h2><p class="lead">From precision cuts and colour to bridal beauty, nails, skincare and spa treatments, Style Nation brings multiple beauty disciplines under one roof.</p></div>
+<div class="services">
+<div class="card"><div class="icon">✦</div><h3>Hair Studio</h3><p>Haircuts, styling, colour, highlights, straightening, smoothening, extensions and treatments.</p></div>
+<div class="card"><div class="icon">◌</div><h3>Makeup & Bridal</h3><p>Regular, HD and airbrush makeup, bridal packages, styling, draping and wedding-ready looks.</p></div>
+<div class="card"><div class="icon">✧</div><h3>Skin & Facial</h3><p>Facial treatments, skincare, bleaching and beauty treatments tailored to your occasion.</p></div>
+<div class="card"><div class="icon">⌁</div><h3>Nails & Feet</h3><p>Manicure, pedicure, premium nail care and relaxing hand & feet services.</p></div>
+<div class="card"><div class="icon">♡</div><h3>Body Care</h3><p>Waxing, hair removal, body treatments and massage services for a complete reset.</p></div>
+<div class="card"><div class="icon">◒</div><h3>Hair Extensions</h3><p>Extension services and transformation-focused hair work for special occasions or a new everyday style.</p></div>
+</div></div></section>
+
+<section id="story" class="about"><div class="container aboutgrid">
+<div class="aboutimg"></div>
+<div><div class="eyebrow">The Style Nation story</div><h2>More than a salon. A place to transform.</h2>
+<p class="lead">Style Nation is an established Indore beauty destination associated with Pammi Chawla and known for hair, beauty and bridal services. Public listings describe the studio as a full-service unisex salon with professional staff and services spanning hair, skin, makeup, nails, body care and spa.</p>
+<div class="quote">“Never lose an opportunity of seeing anything that is beautiful.”</div>
+<div class="ticks"><div><span>✓</span>Unisex services</div><div><span>✓</span>Bridal & occasion looks</div><div><span>✓</span>Hair colour & styling</div><div><span>✓</span>Beauty & wellness</div></div>
+</div></div></section>
+
+<section id="gallery"><div class="container">
+<div class="sectionhead"><div class="eyebrow">Inside Style Nation</div><h2>A space designed for your glow-up.</h2></div>
+<div class="gallery"><div class="gmain"><img src="https://img.magicpin.com/9110980_store_images_0.webp" alt="Style Nation salon interior"></div><div class="gside"><img src="https://img.magicpin.com/9110980_store_images_1.webp" alt="Style Nation hair wash area"><img src="https://img.magicpin.com/9110980_store_images_2.webp" alt="Style Nation nail and pedicure area"></div></div>
+</div></section>
+
+<section id="locations" class="locations"><div class="container">
+<div class="sectionhead"><div class="eyebrow">Visit us</div><h2>Multiple Style Nation locations.</h2><p class="lead" style="color:#cfc5b8">Choose the outlet most convenient for you. Hours and contact numbers below are based on public listings and should be confirmed before launch.</p></div>
+<div class="locationgrid">
+<div class="loc"><span class="hours">Daily · 10:00 AM – 9:30 PM</span><h3>Khatiwala Tank</h3><p>784, Khatiwala Tank Main Rd, opposite Bandhan Bank, near Tower Square, Saifee Nagar, Indore, Madhya Pradesh 452014.</p><a class="btn gold" href="https://www.google.com/maps/search/?api=1&query=STYLE+NATION+Unisex+Salon+784+Khatiwala+Tank+Indore" target="_blank">Get Directions</a></div>
+<div class="loc"><span class="hours">Daily · 10:00 AM – 9:30 PM*</span><h3>New Palasia</h3><p>Gold Stone, 3/5, near Divine Jewellers / 56 Shop, New Palasia, Indore, Madhya Pradesh 452001.</p><a class="btn gold" href="https://www.google.com/maps/search/?api=1&query=Style+Nation+Gold+Stone+New+Palasia+Indore" target="_blank">Get Directions</a></div>
+</div></div></section>
+
+<section class="menu"><div class="container"><div class="sectionhead"><div class="eyebrow">Service menu</div><h2>A simple menu for the website.</h2><p class="lead">This prototype uses publicly listed service categories. Official prices/menu artwork should be inserted before the site is sold or published.</p></div>
+<div class="menubox">
+<div class="menurow"><b>Hair</b><span>Haircuts · Styling · Colour · Highlights · Smoothening · Straightening · Extensions</span></div>
+<div class="menurow"><b>Makeup</b><span>Basic · Party · Bridal · HD · Airbrush · Styling</span></div>
+<div class="menurow"><b>Skin</b><span>Facials · Skincare · Bleaching · Beauty treatments</span></div>
+<div class="menurow"><b>Nails</b><span>Manicure · Pedicure · Premium nail care</span></div>
+<div class="menurow"><b>Body</b><span>Waxing · Hair removal · Body treatments · Massage</span></div>
+<div class="menurow"><b>Bridal</b><span>Bridal makeup · Hair styling · Draping · Extensions · Occasion packages</span></div>
+</div></div></section>
+
+<section id="reviews"><div class="container">
+<div class="sectionhead"><div class="eyebrow">Client feedback</div><h2>What people are saying.</h2><p class="lead">Selected excerpts are presented as review highlights; the live site should link to the original review platforms.</p></div>
+<div class="reviews">
+<div class="review"><div class="stars">★★★★★</div><p>“I trust Pammi di for my hair… I love her work and have trust in her ability.”</p><small>Deepti Wadhwani · public review, 2025</small></div>
+<div class="review"><div class="stars">★★★★★</div><p>“Pammi aunty has done excellent job… she made sure we were satisfied until the colour was done.”</p><small>Aditya · public review, 2023</small></div>
+<div class="review"><div class="stars">★★★★★</div><p>“A safe heaven for beauty treatments… amazing hair colour and cuts.”</p><small>Sumeet Kaur Khanuja · public review, 2023</small></div>
+</div></div></section>
+
+<section id="contact"><div class="container contactgrid">
+<div class="contactbox"><div class="eyebrow">Contact</div><h3>Let’s create your next look.</h3>
+<div class="contactline"><b>Khatiwala Tank</b>091114 77778 · 0731 422 7653</div>
+<div class="contactline"><b>New Palasia</b>095753 00000 · 0731 253 2277 · 0731 423 9975</div>
+<div class="contactline"><b>Email listed publicly</b>karak909@gmail.com</div>
+<div class="buttons"><a class="btn gold" href="tel:+919111477778">Call Salon</a><a class="btn ghost" href="mailto:karak909@gmail.com">Email</a></div></div>
+<div class="contactbox" style="background:#fffaf3;color:var(--ink)"><div class="eyebrow">Opening hours</div><h3>Open every day.</h3>
+<div class="hoursgrid"><div>Monday <b>10–9:30</b></div><div>Tuesday <b>10–9:30</b></div><div>Wednesday <b>10–9:30</b></div><div>Thursday <b>10–9:30</b></div><div>Friday <b>10–9:30</b></div><div>Saturday <b>10–9:30</b></div><div>Sunday <b>10–9:30</b></div></div>
+<p style="font-size:11px;color:var(--muted)">*Public listings vary slightly by outlet/source. Confirm final hours with the owner before launch.</p></div>
+</div></section>
+
+<footer><div class="container foot"><div>© 2026 STYLE NATION · Unisex Salon · Indore</div><div>Prototype website created for presentation · <span class="gold">Replace imagery/logo with owner-approved assets before commercial launch.</span></div></div></footer>
+</body></html>
